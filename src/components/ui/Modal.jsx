@@ -66,7 +66,7 @@ const Modal = () => {
             <div className="absolute inset-0" onClick={() => setSelectedProduct(null)} />
 
             {/* Modal Container */}
-            <div className="relative w-full max-w-4xl transform overflow-hidden rounded-2xl bg-white shadow-2xl transition-all md:flex">
+            <div className="relative w-full max-w-4xl transform  overflow-y-scroll md:overflow-hidden rounded-2xl bg-white shadow-2xl transition-all md:flex max-h-[90vh]">
 
                 {/* Close Button */}
                 <button
