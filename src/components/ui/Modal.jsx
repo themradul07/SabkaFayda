@@ -80,17 +80,12 @@ const Modal = () => {
                 {/* LEFT COLUMN: Visuals & Variations */}
                 <div className="flex flex-col items-center justify-between bg-gray-50/50 p-6 md:w-1/2 md:p-8">
                     {/* Main Placeholder Wrapper */}
-                    <div className="flex aspect-square w-full max-w-[280px] items-center justify-center rounded-2xl bg-gray-100 text-gray-300">
+                    <div className="flex aspect-square w-full h-full items-center justify-center rounded-2xl bg-gray-100 text-gray-300">
                         {/* SVG layout placeholder matching image_3fba7b.png */}
-                        images?<>
+                        
                             <img
           loading="lazy" src={images[0]} className='w-full h-full' alt="" />
-                        </>:
-                        <svg className="w-1/2 h-1/2 max-w-[120px]" fill="none" stroke="currentColor" strokeWidth="1" viewBox="0 0 100 100">
-                            <circle cx="50" cy="50" r="40" />
-                            <line x1="21.7" y1="21.7" x2="78.3" y2="78.3" />
-                            <line x1="78.3" y1="21.7" x2="21.7" y2="78.3" />
-                        </svg>
+                       
                     </div>
 
                     {/* Variants Segment */}
